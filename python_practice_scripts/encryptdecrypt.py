@@ -35,5 +35,6 @@ def main():
     except UnicodeDecodeError:
         print("Sorry: Only ASCII CHaracters are supported")
 
-main()
+if __name__=="__main__":
+    main()
 #End

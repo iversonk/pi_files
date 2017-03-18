@@ -9,7 +9,7 @@ print("Please enter text to scramble:")
 #Get user input
 user_input = input()
 #Send message out
-encodeKEY1 = ENC.encryptText(user_input,KEY1)
+encodedKEY1 = ENC.encryptText(user_input,KEY1)
 print("USER1: Send message encrypted with KEY1 (KEY1): " + encodedKEY1)
 #Reciever encrypts the message again
 encodedKEY1KEY2 = ENC.encryptText(encodedKEY1,KEY2)
