@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-#encryptdecrypt.py
 
 #Takes the input_text and encrypts it, returning the result
 def encryptText(input_text,key):
@@ -28,7 +26,7 @@ def main():
     #Get user input
     try:
         user_input = input()
-        scrambled_result = excryptText(user_input,10)
+        scrambled_result = encryptText(user_input,10)
         print("Result: " + scrambled_result)
         print("To un-scramble, press enter again")
         input()
