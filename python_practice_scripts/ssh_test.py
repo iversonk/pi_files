@@ -1,1 +1,1 @@
-#shoul see!
+#trying it in zshrc
