@@ -4,10 +4,10 @@ import encryptdecrypt as ENC
 import tkinter as TK
 
 def encryptButton():
-    encryptvalue.set(ENC.encryptText(encryptvalue.get(),keyvalue.get))
+    encryptvalue.set(ENC.encryptText(encryptvalue.get(),keyvalue.get()))
 
 def decryptButton():
-    encryptvalue.set(ENC.encryptText(encryptvalue.get(),-keyvalue.get))
+    encryptvalue.set(ENC.encryptText(encryptvalue.get(),-keyvalue.get()))
 
 #Define Tkinter application
 root=TK.Tk()
